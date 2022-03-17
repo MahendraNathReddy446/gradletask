@@ -1,0 +1,245 @@
+ gradle -q projects
+
+
+←[1A←[1m> Connecting to Daemon←[m←[22D←[1B←[2A←[1m<←[0;1m-------------> 0% INITIALIZING [24ms]←[m←[38D←[1B> IDLE←[0K←[6D←[1B←[2A←[1m<←[0;1m-------------> 0% CONFIGURING [124ms]←[m←[38D←[1B←[1m> root project > Compiling build file 'build.gradle'←[m←[52D←[1B←[2A←[1m<←[0;1m-------------> 0% CONFIGURING [232ms]←[m←[38D←[1B←[1m> root project←[m←[0K←[14D←[1B←[2A←[1m<←[0;1m-------------> 0% CONFIGURING [319ms]←[m←[38D←[2B←[2A←[1m<←[0;1m-------------> 0% EXECUTING [426ms]←[m←[0K←[36D←[1B←[1m> :projects←[m←[0K←[11D←[1B←[2A←[0K
+←[1m------------------------------------------------------------←[m
+←[1mRoot project 'First_Gradle'←[m
+←[1m------------------------------------------------------------←[m
+
+Root project 'First_Gradle'
+←[33mNo sub-projects←[39m
+
+To see a list of the tasks of a project, run ←[1mgradle←[m←[1m ←[m←[1m<project-path>:tasks←[m
+For example, try running ←[1mgradle←[m←[1m ←[m←[1m:tasks←[m
+←[0K
+←[0K
+←[2A←[1m<←[0;1m-------------> 0% WAITING←[m←[26D←[1B←[1m> :projects←[m←[11D←[1B←[2A←[2K←[1B←[2K←[1A
+NarLaksmi@DESKTOP-OUPV396 MINGW64 /d/gradle task
+$ gradle -q tasks
+
+
+←[1A←[1m> Connecting to Daemon←[m←[22D←[1B←[1A> IDLE←[0K←[6D←[1B←[2A←[1m<←[0;1m-------------> 0% EXECUTING [103ms]←[m←[36D←[1B←[1m> :tasks←[m←[8D←[1B←[2A←[1m<←[0;1m-------------> 0% EXECUTING [206ms]←[m←[36D←[2B←[2A←[1m<←[0;1m-------------> 0% EXECUTING [299ms]←[m←[36D←[2B←[2A←[1m<←[0;1m-------------> 0% EXECUTING [396ms]←[m←[36D←[2B←[2A←[1m<←[0;1m-------------> 0% EXECUTING [491ms]←[m←[36D←[2B←[2A←[0K
+←[1m------------------------------------------------------------←[m
+←[1mTasks runnable from root project 'First_Gradle'←[m
+←[1m------------------------------------------------------------←[m
+
+←[1mBuild tasks←[m
+←[1m-----------←[m
+←[32massemble←[39m←[33m - Assembles the outputs of this project.←[39m
+←[32mbuild←[39m←[33m - Assembles and tests this project.←[39m
+←[32mbuildDependents←[39m←[33m - Assembles and tests this project and all projects that depend on it.←[39m
+←[32mbuildNeeded←[39m←[33m - Assembles and tests this project and all projects it depends on.←[39m
+←[32mclasses←[39m←[33m - Assembles main classes.←[39m
+←[32mclean←[39m←[33m - Deletes the build directory.←[39m
+←[32mjar←[39m←[33m - Assembles a jar archive containing the main classes.←[39m
+←[32mtestClasses←[39m←[33m - Assembles test classes.←[39m
+
+←[1mBuild Setup tasks←[m
+←[1m-----------------←[m
+←[32minit←[39m←[33m - Initializes a new Gradle build.←[39m
+←[32mwrapper←[39m←[33m - Generates Gradle wrapper files.←[39m
+
+←[1mDocumentation tasks←[m
+←[1m-------------------←[m
+←[32mjavadoc←[39m←[33m - Generates Javadoc API documentation for the main source code.←[39m
+
+←[1mHelp tasks←[m
+←[1m----------←[m
+←[32mbuildEnvironment←[39m←[33m - Displays all buildscript dependencies declared in root project 'First_Gradle'.←[39m
+←[32mdependencies←[39m←[33m - Displays all dependencies declared in root project 'First_Gradle'.←[39m
+←[32mdependencyInsight←[39m←[33m - Displays the insight into a specific dependency in root project 'First_Gradle'.←[39m
+←[32mhelp←[39m←[33m - Displays a help message.←[39m
+←[32mjavaToolchains←[39m←[33m - Displays the detected java toolchains.←[39m
+←[32moutgoingVariants←[39m←[33m - Displays the outgoing variants of root project 'First_Gradle'.←[39m
+←[32mprojects←[39m←[33m - Displays the sub-projects of root project 'First_Gradle'.←[39m
+←[32mproperties←[39m←[33m - Displays the properties of root project 'First_Gradle'.←[39m
+←[32mtasks←[39m←[33m - Displays the tasks runnable from root project 'First_Gradle'.←[39m
+
+←[1mVerification tasks←[m
+←[1m------------------←[m
+←[32mcheck←[39m←[33m - Runs all checks.←[39m
+←[32mtest←[39m←[33m - Runs the test suite.←[39m
+
+←[1mRules←[m
+←[1m-----←[m
+Pattern: clean<TaskName>: Cleans the output files of a task.
+Pattern: build<ConfigurationName>: Assembles the artifacts of a configuration.
+
+To see all tasks and more detail, run ←[1mgradle←[m←[1m ←[m←[1mtasks --all←[m
+
+To see more detail about a task, run ←[1mgradle←[m←[1m ←[m←[1mhelp --task <task>←[m
+←[0K
+←[0K
+←[2A←[1m<←[0;1m-------------> 0% WAITING←[m←[26D←[1B←[1m> :tasks←[m←[8D←[1B←[2A←[2K←[1B←[2K←[1A←[1m<←[0;1m-------------> 0% WAITING←[m←[26D←[1B> IDLE←[6D←[1B
+NarLaksmi@DESKTOP-OUPV396 MINGW64 /d/gradle task
+$ gradle tasks -all
+
+
+←[1A←[1m> Connecting to Daemon←[m←[22D←[1B←[1A> IDLE←[0K←[6D←[1B←[2A←[1m<←[0;1m-------------> 0% CONFIGURING [93ms]←[m←[37D←[1B←[1m> root project←[m←[14D←[1B←[2A←[0K
+←[31mFAILURE: ←[39m←[31mBuild failed with an exception.←[39m
+
+* What went wrong:
+Problem configuring task :tasks from command line.
+←[33m> ←[39mUnknown command-line option '-l'.
+
+* Try:
+←[33m> ←[39mRun ←[1mgradle help --task :tasks←[m to get task usage details.
+←[33m> ←[39mRun with ←[1m--stacktrace←[m option to get the stack trace.
+←[33m> ←[39mRun with ←[1m--info←[m or ←[1m--debug←[m option to get more log output.
+←[33m> ←[39mRun with ←[1m--scan←[m to get full insights.
+
+* Get more help at ←[1mhttps://help.gradle.org←[m
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+←[31;1mBUILD FAILED←[0;39m in 1s
+←[0K
+←[0K
+←[2A←[1m<←[0;1m-------------> 0% WAITING←[m←[26D←[1B> IDLE←[6D←[1B←[2A←[2K←[1B←[2K←[1A
+NarLaksmi@DESKTOP-OUPV396 MINGW64 /d/gradle task
+$ gradle help --task
+
+
+←[1A←[1m> Connecting to Daemon←[m←[22D←[1B←[2A←[1m<←[0;1m-------------> 0% INITIALIZING [24ms]←[m←[38D←[1B> IDLE←[0K←[6D←[1B←[2A←[0K
+←[31mFAILURE: ←[39m←[31mBuild failed with an exception.←[39m
+
+* What went wrong:
+Problem configuring task :help from command line.
+←[33m> ←[39mNo argument was provided for command-line option '--task'.
+
+* Try:
+←[33m> ←[39mRun ←[1mgradle help --task :help←[m to get task usage details.
+←[33m> ←[39mRun with ←[1m--stacktrace←[m option to get the stack trace.
+←[33m> ←[39mRun with ←[1m--info←[m or ←[1m--debug←[m option to get more log output.
+←[33m> ←[39mRun with ←[1m--scan←[m to get full insights.
+
+* Get more help at ←[1mhttps://help.gradle.org←[m
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+←[31;1mBUILD FAILED←[0;39m in 1s
+←[0K
+←[0K
+←[2A←[1m<←[0;1m-------------> 0% WAITING←[m←[26D←[1B> IDLE←[6D←[1B←[2A←[2K←[1B←[2K←[1A
+NarLaksmi@DESKTOP-OUPV396 MINGW64 /d/gradle task
+$ gradle -q dependencies
+
+
+←[1A←[1m> Connecting to Daemon←[m←[22D←[1B←[1A> IDLE←[0K←[6D←[1B←[2A←[1m<←[0;1m-------------> 0% INITIALIZING [109ms]←[m←[39D←[2B←[2A←[0K
+←[1m------------------------------------------------------------←[m
+←[1mRoot project 'First_Gradle'←[m
+←[1m------------------------------------------------------------←[m
+
+←[32mannotationProcessor←[39m←[33m - Annotation processors and their dependencies for source set 'main'.←[39m
+←[0K
+←[0K
+←[2A←[1m<←[0;1m-------------> 0% EXECUTING [203ms]←[m←[36D←[1B←[1m> :dependencies > Resolve dependencies of :annotationProcessor←[m←[62D←[1B←[2A←[33mNo dependencies←[39m←[0K
+←[0K
+←[32mapi←[39m←[33m - API dependencies for source set 'main'.←[39m←[33m (n)←[39m
+←[33m\--- ←[39mapi.apache.commons:commons-math3:3.6.1←[33m (n)←[39m
+
+←[32mapiElements←[39m←[33m - API elements for main.←[39m←[33m (n)←[39m
+←[33mNo dependencies←[39m
+
+←[32marchives←[39m←[33m - Configuration for archive artifacts.←[39m←[33m (n)←[39m
+←[33mNo dependencies←[39m
+
+←[32mcompileClasspath←[39m←[33m - Compile classpath for source set 'main'.←[39m
+←[0K
+←[0K
+←[2A←[1m<←[0;1m-------------> 0% EXECUTING [298ms]←[m←[36D←[1B←[1m> :dependencies > Resolve dependencies of :compileClasspath←[m←[59D←[1B←[2A←[1m<←[0;1m-------------> 0% EXECUTING [396ms]←[m←[36D←[2B←[2A←[1m<←[0;1m-------------> 0% EXECUTING [505ms]←[m←[36D←[2B←[2A←[1m<←[0;1m-------------> 0% EXECUTING [598ms]←[m←[36D←[2B←[2A←[1m<←[0;1m-------------> 0% EXECUTING [697ms]←[m←[36D←[2B
+←[3A←[1m<←[0;1m-------------> 0% EXECUTING [806ms]←[m←[0K←[36D←[1B←[1m> :dependencies > Resolve dependencies of :compileClasspath > guava-28.0-jre.pom←[m←[80D←[1B←[1m> :dependencies > Resolve dependencies of :compileClasspath > commons-math3-3.6.1.pom←[m←[85D←[1B←[3A←[1m<←[0;1m-------------> 0% EXECUTING [900ms]←[m←[36D←[3B←[3A←[1m<←[0;1m-------------> 0% EXECUTING [995ms]←[m←[36D←[3B←[3A←[1m<←[0;1m-------------> 0% EXECUTING [1s]←[m←[0K←[33D←[3B←[3A←[1m<←[0;1m-------------> 0% EXECUTING [2s]←[m←[33D←[1B> IDLE←[0K←[6D←[2B←[1A←[1m> :dependencies > Resolve dependencies of :compileClasspath←[m←[0K←[59D←[1B←[1A←[1m> :dependencies > Resolve dependencies of :compileClasspath > failureaccess-1.0.1.pom←[m←[85D←[1B←[1A←[1m> :dependencies > Resolve dependencies of :compileClasspath←[m←[0K←[59D←[1B←[1A←[1m> :dependencies > Resolve dependencies of :compileClasspath > animal-sniffer-parent-1.17.pom←[m←[92D←[1B←[1A←[1m> :dependencies > Resolve dependencies of :compileClasspath > j2objc-annotations-1.3.pom←[m←[0K←[88D←[1B←[1A←[1m> :dependencies > Resolve dependencies of :compileClasspath←[m←[0K←[59D←[1B←[3A←[1m<←[0;1m-------------> 0% EXECUTING [3s]←[m←[33D←[3B←[3A←[33m+--- ←[39mapi.apache.commons:commons-math3:3.6.1←[31m FAILED←[39m
+←[33m\--- ←[39mcom.google.guava:guava:28.0-jre
+←[33m     +--- ←[39mcom.google.guava:failureaccess:1.0.1←[0K
+←[33m     +--- ←[39mcom.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+←[33m     +--- ←[39mcom.google.code.findbugs:jsr305:3.0.2
+←[33m     +--- ←[39morg.checkerframework:checker-qual:2.8.1
+←[33m     +--- ←[39mcom.google.errorprone:error_prone_annotations:2.3.2
+←[33m     +--- ←[39mcom.google.j2objc:j2objc-annotations:1.3
+←[33m     \--- ←[39morg.codehaus.mojo:animal-sniffer-annotations:1.17
+
+←[32mcompileOnly←[39m←[33m - Compile only dependencies for source set 'main'.←[39m←[33m (n)←[39m
+←[33mNo dependencies←[39m
+
+←[32mcompileOnlyApi←[39m←[33m - Compile only API dependencies for source set 'main'.←[39m←[33m (n)←[39m
+←[33mNo dependencies←[39m
+
+←[32mdefault←[39m←[33m - Configuration for default artifacts.←[39m←[33m (n)←[39m
+←[33mNo dependencies←[39m
+
+←[32mimplementation←[39m←[33m - Implementation only dependencies for source set 'main'.←[39m←[33m (n)←[39m
+←[33m\--- ←[39mcom.google.guava:guava:28.0-jre←[33m (n)←[39m
+
+←[32mruntimeClasspath←[39m←[33m - Runtime classpath of source set 'main'.←[39m
+←[33m+--- ←[39mapi.apache.commons:commons-math3:3.6.1←[31m FAILED←[39m
+←[33m\--- ←[39mcom.google.guava:guava:28.0-jre
+←[33m     +--- ←[39mcom.google.guava:failureaccess:1.0.1
+←[33m     +--- ←[39mcom.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+←[33m     +--- ←[39mcom.google.code.findbugs:jsr305:3.0.2
+←[33m     +--- ←[39morg.checkerframework:checker-qual:2.8.1
+←[33m     +--- ←[39mcom.google.errorprone:error_prone_annotations:2.3.2
+←[33m     +--- ←[39mcom.google.j2objc:j2objc-annotations:1.3
+←[33m     \--- ←[39morg.codehaus.mojo:animal-sniffer-annotations:1.17
+
+←[32mruntimeElements←[39m←[33m - Elements of runtime for main.←[39m←[33m (n)←[39m
+←[33mNo dependencies←[39m
+
+←[32mruntimeOnly←[39m←[33m - Runtime only dependencies for source set 'main'.←[39m←[33m (n)←[39m
+←[33mNo dependencies←[39m
+
+←[32mtestAnnotationProcessor←[39m←[33m - Annotation processors and their dependencies for source set 'test'.←[39m
+←[33mNo dependencies←[39m
+
+←[32mtestCompileClasspath←[39m←[33m - Compile classpath for source set 'test'.←[39m
+←[0K
+←[0K
+←[0K
+←[3A←[1m<←[0;1m-------------> 0% EXECUTING [3s]←[m←[33D←[1B> IDLE←[6D←[1B←[1m> :dependencies > Resolve dependencies of :testCompileClasspath > junit-4.12.pom←[m←[80D←[1B←[1A←[1m> :dependencies > Resolve dependencies of :testCompileClasspath←[m←[0K←[63D←[1B←[3A←[33m+--- ←[39mapi.apache.commons:commons-math3:3.6.1←[31m FAILED←[39m
+←[33m+--- ←[39mcom.google.guava:guava:28.0-jre
+←[33m|    +--- ←[39mcom.google.guava:failureaccess:1.0.1←[0K
+←[33m|    +--- ←[39mcom.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+←[33m|    +--- ←[39mcom.google.code.findbugs:jsr305:3.0.2
+←[33m|    +--- ←[39morg.checkerframework:checker-qual:2.8.1
+←[33m|    +--- ←[39mcom.google.errorprone:error_prone_annotations:2.3.2
+←[33m|    +--- ←[39mcom.google.j2objc:j2objc-annotations:1.3
+←[33m|    \--- ←[39morg.codehaus.mojo:animal-sniffer-annotations:1.17
+←[33m\--- ←[39mjunit:junit:4.12
+←[33m     \--- ←[39morg.hamcrest:hamcrest-core:1.3
+
+←[32mtestCompileOnly←[39m←[33m - Compile only dependencies for source set 'test'.←[39m←[33m (n)←[39m
+←[33mNo dependencies←[39m
+
+←[32mtestImplementation←[39m←[33m - Implementation only dependencies for source set 'test'.←[39m←[33m (n)←[39m
+←[33m\--- ←[39mjunit:junit:4.12←[33m (n)←[39m
+
+←[32mtestRuntimeClasspath←[39m←[33m - Runtime classpath of source set 'test'.←[39m
+←[33m+--- ←[39mapi.apache.commons:commons-math3:3.6.1←[31m FAILED←[39m
+←[33m+--- ←[39mcom.google.guava:guava:28.0-jre
+←[33m|    +--- ←[39mcom.google.guava:failureaccess:1.0.1
+←[33m|    +--- ←[39mcom.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+←[33m|    +--- ←[39mcom.google.code.findbugs:jsr305:3.0.2
+←[33m|    +--- ←[39morg.checkerframework:checker-qual:2.8.1
+←[33m|    +--- ←[39mcom.google.errorprone:error_prone_annotations:2.3.2
+←[33m|    +--- ←[39mcom.google.j2objc:j2objc-annotations:1.3
+←[33m|    \--- ←[39morg.codehaus.mojo:animal-sniffer-annotations:1.17
+←[33m\--- ←[39mjunit:junit:4.12
+←[33m     \--- ←[39morg.hamcrest:hamcrest-core:1.3
+
+←[32mtestRuntimeOnly←[39m←[33m - Runtime only dependencies for source set 'test'.←[39m←[33m (n)←[39m
+←[33mNo dependencies←[39m
+
+←[33m(n) - Not resolved (configuration is not meant to be resolved)←[39m
+
+A web-based, searchable dependency report is available by adding the ←[1m--scan←[m option.
+←[0K
+←[0K
+←[0K
+←[3A←[1m<←[0;1m-------------> 0% WAITING←[m←[26D←[1B> IDLE←[6D←[1B> IDLE←[6D←[1B←[3A←[2K←[1B←[2K←[1B←[2K←[2A
